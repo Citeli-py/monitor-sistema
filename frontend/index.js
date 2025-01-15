@@ -25,7 +25,7 @@ const memoryChart = new MemoryChart();
 const storageChart = new StorageChart();
 
 // Uso da classe WebSocketClient
-const wsClient = new WebSocketClient('ws://100.94.42.63:8080');
+const wsClient = new WebSocketClient(`ws://${window.location.hostname}:8080`);
 
 // Configurar o callback para processar mensagens recebidas
 wsClient.onMessage((data) => {

@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "express": "^4.21.2",
+    "systeminformation": "^5.23.23",
+    "ws": "^8.18.0"
+  }
+}
